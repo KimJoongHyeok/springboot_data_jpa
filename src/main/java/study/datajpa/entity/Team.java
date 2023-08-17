@@ -13,7 +13,7 @@ import java.util.List;
 @Getter
 @ToString(of = {"id", "name"})
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Team {
+public class Team extends JpaBaseEntity{
 
     @Id
     @GeneratedValue
